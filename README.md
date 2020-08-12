@@ -1,6 +1,6 @@
 # Jupyter Notebook Scientific Python Stack + Tensorflow + Tensorboard + PyTorch
 
-This image is base on lspvic/tensorboard-notebook but PyTorch has also been installed
+This image is based on lspvic/tensorboard-notebook but PyTorch has also been installed
 
 Tensorboard is started in Jupyter notebook with the password set to `tensorboard`. The docker can thus be run as a daemon without additional steps to configure the password. This is obviously not secure and is aimed at personal on you personal computer and not on a production server.
 
