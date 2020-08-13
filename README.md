@@ -10,7 +10,7 @@ Pull the `tensornotebook` docker image and start a container:
 
 ```
 docker pull jannetta/tensornotebook
-docker run --rm -d -p 8888:8888 --name tensornotebook -v tensornotebook:/home/jovyan/work -d tensornotebook:1.0
+docker run --rm -d -p 8888:8888 --name tensornotebook -v tensornotebook:/home/jovyan/work -d jannetta/tensornotebook
 ```
 
 The docker run command will start jupyter notebook which can then be accessed via web browser at http://localhost:8888. The minus -v parameter creates a docker volume called tensornotebook to make the data directory persistent. The --rm command makes the container ephemeral, i.e. it will be deleted when it is stopped, but because of the volume, the files saved will be persistent. The -d parameter ensures that the container keeps running as a daemon. To stop the container the stop command needs to be used:
