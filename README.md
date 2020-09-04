@@ -5,6 +5,7 @@ This image is based on lspvic/tensorboard-notebook but PyTorch has also been ins
 Tensorboard is started in Jupyter notebook with the password set to `tensorflow`. The docker can thus be run as a daemon without additional steps to configure the password. This is obviously not secure and is aimed at personal on you personal computer and not on a production server.
 
 2020/09/01 - Add opencv
+
 2020/08/13 - Add torchvision
 
 Usage
